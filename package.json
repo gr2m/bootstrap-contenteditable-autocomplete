@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "exit 1",
+    "test": "standard contenteditable-autocomplete.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/gr2m/contenteditable-autocomplete#readme",
   "devDependencies": {
-    "semantic-release": "^6.0.3"
+    "semantic-release": "^6.0.3",
+    "standard": "^5.3.1"
   }
 }
